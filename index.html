@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project 18 text tranlator with api</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="text_input">
+      <textarea class="from_text" placeholder="enter text..."></textarea>
+      <textarea class="to_text" placeholder="translate text..." readonly></textarea>
+    </div>
+    <div class="row">
+      <div class="from_row">
+        <li><i id="from" class="fa-solid fa-volume-high"></i></li>
+        <li><i id="from" class="fa-regular fa-clipboard"></i></li>
+        <select>
+        </select>
+      </div>
+      <div class="exchange">
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+      </div>
+      <div class="to_row">
+        <select>
+        </select>
+        <li><i id="to" class="fa-regular fa-clipboard"></i></li>
+        <li><i id="to" class="fa-solid fa-volume-high"></i></li>
+      </div>
+    </div>
+    <!-- translate button here  -->
+    <button id="translate_btn">Translate</button>
+  </div>
+  <script src="countries.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
